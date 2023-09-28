@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+
+.texts{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.title{
+  font-size: 50px;
+  background: linear-gradient(to bottom,  red, yellow, rgb(235, 100, 63));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img{
+  width: 100%;
+  height: 50%
+}
+
+.desc{
+  font-size: 20px;
+  font-weight: 300;
+
+}
